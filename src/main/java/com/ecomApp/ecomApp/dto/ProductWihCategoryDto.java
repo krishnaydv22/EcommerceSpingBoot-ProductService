@@ -15,7 +15,6 @@ public class ProductWihCategoryDto {
     private String model;
     private long id;
     private String title;
-    private long categoryId;
     private String brand;
     private boolean popular;
 
