@@ -1,8 +1,7 @@
-package com.ecomApp.ecomApp.services;
+package com.ecomApp.ecomApp.service;
 
 import com.ecomApp.ecomApp.dto.ProductDto;
 import com.ecomApp.ecomApp.dto.ProductWihCategoryDto;
-import com.ecomApp.ecomApp.entity.Product;
 
 public interface IProductService {
     ProductDto getProductById(Long id);

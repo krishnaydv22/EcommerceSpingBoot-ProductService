@@ -2,11 +2,9 @@ package com.ecomApp.ecomApp.controllers;
 
 import com.ecomApp.ecomApp.dto.ProductDto;
 import com.ecomApp.ecomApp.dto.ProductWihCategoryDto;
-import com.ecomApp.ecomApp.exception.ProductNotFoundException;
-import com.ecomApp.ecomApp.services.IProductService;
+import com.ecomApp.ecomApp.service.IProductService;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

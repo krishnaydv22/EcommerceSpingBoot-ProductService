@@ -2,8 +2,7 @@ package com.ecomApp.ecomApp.controllers;
 
 import com.ecomApp.ecomApp.dto.CategoryDto;
 import com.ecomApp.ecomApp.dto.CategoryWithProductDto;
-import com.ecomApp.ecomApp.gateway.ICategoryGateway;
-import com.ecomApp.ecomApp.services.ICategoryService;
+import com.ecomApp.ecomApp.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

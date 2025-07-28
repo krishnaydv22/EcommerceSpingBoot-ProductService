@@ -1,4 +1,4 @@
-package com.ecomApp.ecomApp.services;
+package com.ecomApp.ecomApp.service;
 
 import com.ecomApp.ecomApp.dto.CategoryDto;
 import com.ecomApp.ecomApp.dto.CategoryWithProductDto;
@@ -8,9 +8,7 @@ import com.ecomApp.ecomApp.mappers.CategoryMapper;
 import com.ecomApp.ecomApp.repository.CategoryRepository;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service("categoryService")

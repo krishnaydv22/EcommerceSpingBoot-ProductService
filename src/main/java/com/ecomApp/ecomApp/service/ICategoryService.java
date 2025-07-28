@@ -1,4 +1,4 @@
-package com.ecomApp.ecomApp.services;
+package com.ecomApp.ecomApp.service;
 
 import com.ecomApp.ecomApp.dto.CategoryDto;
 import com.ecomApp.ecomApp.dto.CategoryWithProductDto;
